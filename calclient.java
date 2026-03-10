@@ -12,7 +12,7 @@ public class calclient {
 
         CalService calculator = (CalService) factory.create();
 
-        int result = calculator.add(10, 20);
+        int result = calculator.multiply(10, 20);
         System.out.println("Result: " + result);
     }
 }
